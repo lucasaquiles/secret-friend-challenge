@@ -1,9 +1,21 @@
 import React from 'react';
+import Header from '../../components/Header';
 
-// import { Container } from './styles';
+import { Container, Input } from './styles';
 
 export default function Home() {
-    return ( <
-        div / >
+    return (
+        <>
+            <Header />
+            <Container>
+                <Input>
+                    <input
+                        placeholder="E-mail"
+                    />
+                    <p>OU</p>
+                    <button type="button">Create Event</button>
+                </Input>
+            </Container>
+        </>
     );
 }
