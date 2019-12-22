@@ -14,7 +14,7 @@ export default function Home() {
                         placeholder="E-mail"
                     />
                     <p>OU</p>
-                    <Link to="/draws" className="button">Create Event</Link>
+                    <Link to="/event/new" className="button">Create Event</Link>
                 </Input>
             </Container>
         </>
