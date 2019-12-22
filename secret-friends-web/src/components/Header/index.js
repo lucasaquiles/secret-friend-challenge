@@ -1,9 +1,11 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import { Container } from './styles';
 
 export default function Header() {
   return (
-    <div />
+    <Container>
+      <h1>Secret Freinds</h1>
+    </Container>
   );
 }
