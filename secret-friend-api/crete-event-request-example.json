@@ -1,3 +1,6 @@
+POST /event
+
+
 {
   "theme":" amigo goordo ",
   "description":" apenas gordices serão permitidas nesse evento ",
@@ -14,3 +17,35 @@
 	}
   ]
 }
+
+
+
+GET /event?email=
+
+GET /event/{id}/?
+
+POST /event/{id}/participant
+PATCH /event/{id}/participant/{id}
+
+
+        {
+		"confirmed":false
+        }
+  
+
+GET /event/{id}/participant/{id}
+
+ {
+                "email":"gordin@gordon.com",
+                "name":"Gordin",
+                "phone":"869292992992"
+		"confirmed":true|false,
+		"secret": {}
+        }
+
+
+
+PUT /event/{id}
+
+
+
