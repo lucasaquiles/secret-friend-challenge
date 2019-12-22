@@ -1,0 +1,16 @@
+{
+  "theme":" amigo goordo ",
+  "description":" apenas gordices serão permitidas nesse evento ",
+  "event_date":"20/12/2019",
+  "owner": {
+	"name":"kiris",
+	"email":"kiris@kiridinha.kom"
+  },
+  "participants: [
+	{
+		"email":"gordin@gordon.com",
+		"name":"Gordin",
+		"phone":"869292992992"
+	}
+  ]
+}
