@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../../components/Header';
 
 import { Container, Input } from './styles';
+import { Link } from 'react-router-dom';
 
 export default function Home() {
     return (
@@ -13,7 +14,7 @@ export default function Home() {
                         placeholder="E-mail"
                     />
                     <p>OU</p>
-                    <button type="button">Create Event</button>
+                    <Link to="/draws" className="button">Create Event</Link>
                 </Input>
             </Container>
         </>

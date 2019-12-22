@@ -24,7 +24,7 @@ export const Input = styled.div`
     border-bottom: 1px solid #e3e3e3;
   }
 
-  button {
+  .button {
     font-size: 24px;
     padding: 5px;
     background: blue;
@@ -33,5 +33,7 @@ export const Input = styled.div`
     border-radius: 5px;
     text-transform: uppercase;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
   }
 `;
