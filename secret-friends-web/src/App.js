@@ -4,12 +4,15 @@ import { Provider } from 'react-redux';
 import './styles/global.css'
 
 import store from './store'
-import ComponentList from './components/ComponentList';
+import Home from './pages/Home';
+import Routes from './components/Routes'
 
 function App() {
   return (
     <Provider store={store}>
-      <ComponentList />
+      <Routes>
+        <Home />
+      </Routes>
     </Provider>
   );
 }
