@@ -19,7 +19,11 @@ repositories {
 dependencies {
 
 	compile("com.h2database:h2")
+	
+	compile("org.mapstruct:mapstruct:1.3.1.Final")
 
+	implementation("io.springfox:springfox-swagger-ui:2.9.2")
+	implementation("io.springfox:springfox-swagger2:2.9.2")
 
 	implementation("org.springframework.boot:spring-boot-starter-actuator")
 	implementation("org.springframework.boot:spring-boot-starter-data-jpa")
